@@ -1987,6 +1987,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image:before {
@@ -2008,6 +2009,7 @@
 
 		.image.thumb {
 			text-align: center;
+
 		}
 
 			.image.thumb:after {
@@ -2018,7 +2020,7 @@
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Ampliar';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2481,7 +2483,7 @@
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/img017.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
